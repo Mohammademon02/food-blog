@@ -7,14 +7,26 @@ h1{
     font-size: 50px;
     margin: 0%;
 }
+h2{
+    font-size: 40px;
+    color: #575757;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
 p{
+    font-size: 20px;
+    text-align: left;
     margin-bottom: 60px;
+    color: #575757;
 }
 h1 span{
     color: salmon;
 }
 .flex-container{
     display: flex;
+    padding-left: 40px;
     justify-content: space-between;
     align-items: center;
 }
@@ -33,18 +45,67 @@ h1 span{
     font-weight: 500;
 }
 .about-area{
-    background-image: url("images/7.png")
+    background-image: url("images/7.png");
+    background-repeat: no-repeat;
 }
-.about-area img{
+.half-w img{
     height: 430px;
+    padding-left: 120px;
+    padding-top: 40px;
 }
 .half-w{
     width: 50%;
+    padding-right: 60px;
 }
-.flex-container{
+.recipi-area{
+    margin-bottom: 50px;
+}
+.recipie-p1{
+    text-align: center;
+}
+.recipie-p2{
+    width: 50%;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+    .recipie-p2 img{
+    height: 300px;
+    width: 550px;
+}
+.recipie-p2 p{
+    color: #000;
+}
+.counter{
+    width: 33%;
+}
+.counter-area h2{
+    color: #000;
+    text-align: center;
+}
+.counter-area p{
+    text-align: center;
+}
+.counter-area{
     display: flex;
-    margin: auto;
-    padding-left: 60px;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    margin: 60px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+.footer-area{
+    background-color: black;
+}
+.w-100{
+    text-align: center;
+}
+.footer-area p{
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 100px;
 }
